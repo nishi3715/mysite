@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camping food</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="top width">
+      <div class="serch">
+        <input type='text' placeholder="検索キーワードを入力">
+        <button type="submit"><img src="serch.png" width="28px" height="28px"></button>
+      </div>
+      <nav>
+        <ul>
+          <a href="">
+            <li>Meat</li>
+          </a>
+          <a href="">
+            <li>Fish</li>
+          </a>
+          <a href="">
+            <li>Side</li>
+          </a>
+          <a href="">
+            <li>Sweets</li>
+          </a>
+        </ul>
+      </nav>
+      <div class="sp-menu" >
+        <span class="material-icons"> menu</span>
+      </div>
+     
+    </div>
+  </header>
+
+  <nav id="overlay">
+    <span class="material-icons" id="close"> close</span>
+    <ul>
+      <a href="">
+        <li>Meat</li>
+      </a>
+      <a href="">
+        <li>Fish</li>
+      </a>
+      <a href="">
+        <li>Side</li>
+      </a>
+      <a href="">
+        <li>Sweets</li>
+      </a>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="content">
+      <div class="flexwidth">
+        <h1>Camping food </h1>
+      </div>
+    </div>
+    <section class="recom width">
+      <h2>Reccomend Recipes</h2>
+      <div class="flexdiv">
+        <div>
+          <img src="oister.jpg">
+          <p>Oyster Ajillo<br></p>
+          <button id="openoister">Read more</button>
+        </div>
+        <div>
+          <img src="cheese.jpg">
+          <p>Camembert Cheese Ajillo<br></p>
+          <button id="opencheese">Read more</button>
+        </div>
+        <div>
+          <img src="sweet.jpg">
+          <p>Sweet Potato with Cheese and Prosciutto</p>
+          <button id="opensweet">Read more</button>
+        </div>
+      </div>
+      <section id="modaloister" class="modal hidden">
+        <img src="oister.jpg">
+        <ul>材料
+          <li>テキスト</li>
+          <li>テキスト</li>
+          <li>テキスト</li>
+        </ul>
+        <button class="close">閉じる</button>
+      </section>
+      <section id="modalcheese"  class="modal hidden">
+        <img src="cheese.jpg">
+        <ul>材料
+          <li>テキスト</li>
+          <li>テキスト</li>
+          <li>テキスト</li>
+        </ul>
+        <button class="close">閉じる</button>
+      </section>
+      <section id="modalsweet" class="modal hidden">
+        <img src="sweet.jpg">
+        <ul>材料
+          <li>テキスト</li>
+          <li>テキスト</li>
+          <li>テキスト</li>
+        </ul>
+        <button class="close">閉じる</button>
+      </section>
+      </section>
+
+    </section>
+  </main>
+  <footer></footer>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
